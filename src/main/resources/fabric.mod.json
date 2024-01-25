@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "numberedhearts",
+	"version": "${version}",
+	"name": "NumberedHearts",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Linguardium"
+	],
+	"license": "CCO",
+	"icon": "assets/numberedhearts/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"mod.linguardium.numberedhearts.NumberedHearts"
+		]
+	},
+	"mixins": [
+		"numberedhearts.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.25",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

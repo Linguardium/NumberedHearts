@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "mod.linguardium.numberedhearts.mixin",
+  "plugin": "mod.linguardium.numberedhearts.mixin.MixinConfigPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ColorfulHeartsMixin",
+    "HeartRenderingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
